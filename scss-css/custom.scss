@@ -1,0 +1,98 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+} */
+
+.banner {
+    height: 500px;
+    background-image: url(./banner.jpg);
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    .about-sign-in {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        
+            .about,
+            .sign-in {
+                margin-top: 20px;
+                padding: 10px 15px;
+                text-decoration: none;
+                display: inline-block;
+                text-transform: uppercase;
+                color: black;
+            }
+            
+            .sign-in {
+                margin-right: 60px;
+                margin-left: 25px;
+                border-radius: 20px;
+                border: 1PX solid greenyellow;
+                color: greenyellow;
+            }
+    }
+    
+    .logo {
+        background: url(./hapoERP.png) center center no-repeat;
+        margin-top: 40px;
+        height: 100px;
+    }
+    
+    .text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .btn-start-now {
+        text-align: center;
+    
+        button {
+            text-transform: uppercase;
+            padding: 7px 15px;
+            border-radius: 20px;
+            border: 1PX solid greenyellow;
+            margin-top: 25px;
+            cursor: pointer;
+        }
+    }
+    
+    .content-center {
+        /* height: 50px; */
+        display: flex;
+        
+        .left,
+        .center,
+        .right {
+            width: 34%;
+            display: inline-block;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        span {
+            display: block;
+            font-size: 25px;
+            padding-top: 5px;
+        }
+        
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+}
